@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎥Films Flicker🍿</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="https://cdn3.iconfinder.com/data/icons/about-love-1/500/film_love_movie_cinema_heart_romantic_camera_entertainment_romance_strip-512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="card">
+        <img src="https://cdn3.iconfinder.com/data/icons/about-love-1/500/film_love_movie_cinema_heart_romantic_camera_entertainment_romance_strip-512.png" class="poster">
+        <h2 class="title">Choose a Category</h2>
+        <h5 class="desc">With Films Flicker you can always find a movie to watch when noone else can! Pick a category in the top right to get started - have fun!</h5>
+        <h4 class="vote-ave">🍿</h4>
+    </div>
+    <div class="votes">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/hand-gestures/dislike-button-icon.png" alt="dislike" class="dislike">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/hand-gestures/like-button-icon.png." alt="like" class="like">
+    </div>
+
+    <button class="flickagain">Flick Again</button>
+
+    <div class="like-movie-disp">
+        <h2>Liked Movies</h2>
+        <h5 style="font-weight: 200;">Pick one of these!</h5>
+        <hr>
+    </div>
+
+    <header>
+        <h1 class="logo">Films Flicker</h1>
+        <div>🍿🎬🍿</div>
+        <select id="options" name="options">
+            <option value="disabledoption" hidden disabled selected>Category?</option>
+            <option value="35" >Comedy</option>
+            <option value="27" >Horror</option>
+            <option value="99">Documentary</option>
+            <option value="80" >Crime</option>
+            <option value="28" >Action</option>
+        </select>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
